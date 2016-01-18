@@ -1,0 +1,154 @@
+<!doctype>
+<html>
+    <head>
+        <link href='stylesheets/stylesheet1.css'  rel="stylesheet" media="screen, projection" type="text/css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="My name is Susan Park."/>
+        </title>
+    </head>
+
+    <body>
+        <div id="header"></div>
+        <header id="maininfo">
+            <a href="index.html">
+                <div class="background-name">
+                    <h1>SUSAN</h1> 
+                </div>
+            </a>
+
+            <a href="index.html">
+                <div class="project-name">
+                    <h1>SUSAN</h1> 
+                </div>
+            </a>
+
+             <nav>
+                <ul>
+                    <li><a href="index.html">WORK  /</a></li>
+                    <li><a href="about.html">ABOUT  /</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <img id="large" src="images/copilot1.png">
+        
+        <div class="copilotintro">
+            <div class="introleft">
+                <h3>INTRODUCTION</h3>
+                    <hr>
+                    <p>Drones are an exciting technology, but can be misunderstood and daunting to operate. Manually flying dynamic paths while avoiding obstacles, ensuring safety, and following regulations is very difficult. The CoPilot mobile application leverages a powerfully intuitive 3D interface allowing users to design an autonomous mission that captures data exactly as they envisioned. </p>
+            </div>
+
+            <div class="introright">
+                <h3>ROLE</h3>
+                    <hr>
+                    <p>I designed, tested and iterated the application, and sought it out to our beta users. I used Sketch and Adobe After Effects to create wireframes and prototypes. I conducted multiple user research through interviews, and analyzed data to improve the product. I designed the webpage for CoPilot that explains its purpose, as well as the branding materials of the app.</p>
+            </div>
+        </div>
+
+        <div class="whataboutdrones">
+            <div id="headingone">
+                <h1>WHAT ABOUT DRONES</h1>
+            </div>
+
+            <div id="infoone">
+                <h3>THE PROBLEM</h3>
+                <hr>
+                <p>The drone industry is currently booming, and while enterprise drone companies continue to create software for specific use cases, there is no fully autonomous software for commercial drones. Few people have tackled this problem, and those that have, failed because of unintuitive UI.</p>
+            </div>
+
+            <img id="part1pic" src="images/copilot2.png">
+        </div>
+
+        <hr>
+
+        <div class="prototypes">
+            <h3>THE SOLUTION</h3>
+            <img id="solution" src="images/copilot3.png">
+            <div id="video1">
+            <iframe width="580" height="335" src="https://www.youtube.com/embed/2sytJfAoOYc" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+         <div class="finaltwo">
+            <div id="headingtwo">
+                <h1>COPILOT APP</h1>
+                <br>
+                <h2>The 3D Platform for Path Planning</h2>
+            </div>
+
+            <div id="whiteinfoone">
+                <h3>PLANNING A PATH</h3>
+                <hr>
+                <p>Our application focuses on a user's space in 3D. Because our core target audience is photographers and videographers, we wanted to emphasize the visualization capabilities of planning a drone path. We incorporated various features from software they might be familiar with, which makes it easier for photographers and videographers to navigate around.</p>
+                </br>
+                <p>We also incorporated visual styles of current drone software to decrease the learning curve of using our application. </p>
+            </div>
+
+            <img id="part2pic" src="images/skew.png">
+        </div>
+
+        <div class="features">
+            <h1>FEATURES</h1>
+            <img id="features" src="images/copilot4.png">
+            <hr id="please">
+            <img id="features" src="images/copilot5.png">
+            <hr id="please">
+        </div>
+
+        <div class="helping">
+            <div id="infoone">
+                <h3>HELPING USERS</h3>
+                <hr>
+                <p>Throughout the flow of the app, we provide various tutorials and popups that help users use the different features. Some are introduced at the beginning of the application.</p>
+                </br>
+                <p>Other popups help users when a problem occurs. For instance, when a drone is not calibrated or the IMU is heating up, we alert them. Other cases include the drone flying too high or close to an obstacle.</p>
+            </div>
+
+            <img id="help" src="images/copilot6.png">
+        </div>
+
+
+        <div class="digitallegacy">
+            <img id="digitallegacy" src="images/copilot7.png">
+        </div>
+
+        <div class="retrospect">
+            <h1>USER RESEARCH</h1>
+            <h3>TESTING</h3>
+            </br>
+            <hr>
+            <p>We designed, tested, and iterated for alpha and beta testers throughout the production of the private beta. With over 20 user testers, we tested 5 different iterations. While most of our users agreed that the 3D map was a huge improvement from previous 2D interfaces they have used before, it was apparent they had trouble navigating the 3D map. There was also a learning curve to understand that the 3D map view was the view of the camera. We also recognized the importance of the playback feature, because they wanted to visualize and perfect the aerial data. </p>
+            <img id="features" src="images/copilot10.png">
+            <p>Due to the limited time before our beta release, we had to prioritize what could be done quickly with what was most important. We found select features that were in the top right quadrant of the aggregated data below, and iterated with features that were absolutely necessary. Some include reforming the flow of the update button, putting pins in 3D space, labeling keyframes, saving missions, and autoscrolling the + button to add a keyframe.</p>
+            <img id="features" src="images/copilot11.png">
+            </br>
+            <h3>A REFLECTION</h3>
+            </br>
+            <hr>
+            <p>For future iterations, I would have liked to tackle more complex actions users might want to achieve with their automated missions. Users with Inspire 1 drones often asked if they could create separate paths for the drone and the camera. It would have also been interesting to explore how users would be able to edit the path live, during flight. One critical improvement we need to make for the success of this application would be the splining capabilities of the drone while it moves to adjacent waypoints. </p>
+        </div>
+    </body>
+
+        <footer>
+            <div id="middlefooter">
+                <h5>BUILT WITH LOVE</h5>
+                <img id="footerlogo" src="images/whiteicon.png">
+                <h1>SUSAN PARK</h1>
+            </div>
+
+            <div class="leftfooter">
+                <a href="index.html"><h2>Back to Main</h2></a>
+            </div>
+
+            <div class="rightfooter">
+                <a href="death.html"><h2>THE LEGACY STONE</h2></a>
+            </div>
+        </footer>
+</html>
+
+        

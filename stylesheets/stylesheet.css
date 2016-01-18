@@ -1,0 +1,596 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, li {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, {
+	color: #3A3A38;
+}
+
+p {
+	color: #5B5B59;
+	font-size: 14px;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/**mnavigation**/
+header#maininfo {
+	z-index: 1000;
+	margin: 0 auto;
+	overflow: hidden;
+	top: 0;
+	position: fixed;
+	width: 100%;
+}
+header#maininfo .background-name {
+	background: url("../images/whiteicon.png") center center no-repeat;
+	float: left;
+	width: 50px;
+	display: block;
+	height: 66px;
+	margin-left: 5%;
+}
+header#maininfo .project-name {
+	background: url("../images/yellowicon.png") center center no-repeat;
+	float: left;
+	width: 50px;
+	display: none;
+	height: 66px;
+	margin-left: 5%;
+}
+header#maininfo .background-name a, header#maininfo .project-name a {
+	text-indent: -9999px;
+	height: 10px;
+	width: 10px;
+	display: block;
+	margin: 0;
+}
+
+.background-name h1, .project-name h1 {
+	opacity: 0;
+}
+
+#header {
+	height: 66px;
+	background: rgba(255,255,255,0.7);
+	position: fixed;
+	top: 0px;
+	display: none;
+	width: 100%;
+	z-index: 1000;
+}
+
+nav {
+	padding-top: 2%;
+	padding-bottom: 3%;
+
+}
+
+#navname {
+	float: left;
+	display: inline-block;
+	padding-left: 10%;
+}
+
+nav ul {
+	float: right;
+	display: block;
+	padding-right: 10%;
+}
+
+nav li {
+	display: inline;
+
+}
+
+nav a {
+	color: #FFFFFF;
+}
+
+/**background**/
+
+#background {
+	background: black url('../images/mainimage.png') center top no-repeat;
+	background-size: cover;
+}
+
+#aboutbackground {
+	background: black url('../images/me.png') center top no-repeat;
+	background-size: cover;
+	position: fixed;
+}
+
+#headerinfo {
+	text-align: center;
+	color: #FFFFFF;
+	display: block;
+	margin: 0 auto;
+	max-width: 350px;
+	padding-top: 200px;
+}
+
+#headerinfo h3 {
+	color: #FFFFFF;
+	font-size: 25px;
+	letter-spacing: 2px;
+	padding-bottom: 5px;
+}
+
+#aboutinfo h3 {
+	color: black;
+	font-size: 30px;
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+}
+
+#headerinfo h4 {
+	font-weight: 100;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+#headerinfo h5 {
+	letter-spacing: 0.7px;
+}
+
+
+.content h2 {
+	font-size: 30px;
+	font-weight: 100;
+	color: #fff;
+	padding-left: 15%;
+	padding-top: 35%;
+	padding-bottom: 10px;
+}
+
+.contenttwo h2 {
+	font-size: 30px;
+	font-weight: 100;
+	color: #1A1A1A;
+	padding-left: 15%;
+	padding-top: 35%;
+	padding-bottom: 10px;
+}
+
+.content h3 {
+	padding-left: 15%;
+	font-size: 20px;
+	color: #fff;
+}
+
+.contenttwo h3 {
+	padding-left: 15%;
+	font-size: 20px;
+	color: #1A1A1A;
+}
+
+.cat h2 {
+	color: #515151;
+	font-size: 20px;
+	padding-top: 12%;
+	max-width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+}
+
+.coming h2 {
+	color: 515151;
+	font-size: 30px;
+}
+
+.contact {
+	color: white;
+	font-size: 25px;
+	padding-top: 15%;
+	max-width: 80%;
+	display: block;
+	margin:0 auto;
+	text-decoration: none;
+}
+
+.contact h2 {
+	padding-top: 2%;
+	text-decoration: none;
+}
+
+.contact li {
+	display: inline-block;
+}
+
+.contact ul {
+	padding-top: 3%;
+}
+
+.contact img {
+	max-width: 30%;
+}
+
+
+
+
+/**main page**/
+.mainpageproject {
+	position: absolute;
+	width: 101%;
+	overflow-x: hidden;
+}
+
+#zero {
+	background: black url('../images/copilot0.png') center center no-repeat;
+	background-size: cover;
+}
+
+#first {
+	background: black url('../images/whitemainphoto.png') center center no-repeat;
+	background-size: cover;
+}
+
+#second {
+	background: url('../images/google1.png') center center no-repeat;
+	background-size: cover;
+}
+
+#third {
+	background: url('../images/stickimage.png') center center no-repeat;
+	background-size: cover;
+}
+
+#four {
+	background: url('../images/buddha.png') center center no-repeat;
+	background-size: cover;
+}
+
+#five {
+	background: url('../images/motionhero.png') center center no-repeat;
+	background-size: cover;
+}
+
+
+#aboutfirst {
+	background: black url('../images/cats.png') center center no-repeat;
+	background-size: cover;
+}
+
+/**footer**/
+
+footer {
+	background-color: #4d4d4d;
+}
+#middlefooter {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: white;
+}
+
+#middlefooter h5 {
+	font-weight: 100;
+	letter-spacing: 3;
+	padding-bottom: 30px;
+	font-size: 12px;
+}
+
+#middlefooter img {
+	padding-bottom: 30px;
+}
+
+#middlefooter h1 {
+	font-size: 21px;
+	letter-spacing: 3;
+}
+
+.leftfooter {
+	display: inline-block;
+	padding-left: 10%;
+	padding-bottom: 5%;
+}
+
+.rightfooter {
+	display: inline-block;
+	float: right;
+	padding-right: 10%;
+}
+
+.leftfooter a, .rightfooter a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+/**motion**/
+#motion {
+	display: block;
+	margin: 5% auto;
+}
+
+/**stick**/
+
+.projectpageheader {
+	position: absolute;
+	padding-top: 35%;
+	padding-left: 15%;
+}
+
+.projectpageheader h1, .projectpageheader h2 {
+	color: #fff;
+}
+
+.projectpageheader h1{
+	font-size: 40px;
+	font-weight: 400;
+	padding-bottom: 5%;
+}
+
+.projectpageheader h2 {
+	font-size: 25px;
+}
+
+.what {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #3A3A38
+}
+
+.what h3, .what p {
+	color: #FFFFFF;
+}
+
+img#blackline  {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.leftp {
+	max-width: 31%;
+	float: left;
+	display: inline-block;
+	padding-left: 14%;
+	padding-right: 9%;
+}
+
+.rightp {
+	max-width: 31%;
+	display: inline-block;
+}
+
+.what h3 {
+	font-size: 25px;
+	padding-bottom: 5%;
+	letter-spacing: 0.3px;
+	font-weight: 500;
+}
+
+.what p {
+	font-weight: 100;
+	line-height: 23px;
+}
+
+.sections {
+	max-width: 47%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10%;
+}
+
+
+.sections h1 {
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 5%;
+	text-align: center;
+}
+
+.sections p, .greysection p, .greysection2 p {
+	font-weight: 300;
+	line-height: 25px;
+}
+
+.greysection {
+	background-color: #F4F4F4;
+	padding-top: 10%;
+	padding-bottom: 8%;
+}
+
+.greysection h1, .greysection p, .greysection2 h1, .greysection2 p {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 47%;
+}
+
+.greysection p {
+	padding-bottom: 5%;
+}
+
+.greysection h1, .greysection2 h1 {
+	font-size: 25px;
+	font-weight: 400;
+	padding-bottom: 3%;
+	text-align: center;
+}
+
+.greysection2 h3 {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 47%;
+	padding-top: 3%;
+	padding-bottom: 2px;
+	font-size: 14px;
+}
+
+
+.greysection2 p, .greysection2 h1 {
+	max-width: 47%;
+}
+
+.greysection2 {
+	background-color: #F4F4F4;
+	padding-top: 10%;
+	padding-bottom: 8%;
+}
+
+.greysection2 h1, .greysection2 p {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stickwireframes img {
+	max-width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 10%;
+}
+
+img#finalstick {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 75%;
+}
+
+img#stickprocess1 {
+	max-width: 100%;
+	width: 100%;
+}
+
+img#stickprocess2 {
+	max-width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img#bing2 {
+	padding-top: 5%;
+	max-width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+img#bing3 {
+	padding-bottom: 10%;
+	max-width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#finalbuddha img {
+	max-width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5%;
+	padding-bottom: 10%;
+}
+
+
+#large {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
