@@ -1,4 +1,5 @@
 $(document).ready(function () {
+	console.log('Made with love: Susan Park');
 	function setHeight() {
         $(".mainpageproject").each(function (index) {
         	if(index === 0) {
@@ -18,7 +19,6 @@ $(document).ready(function () {
     }
 
     function setFixed() {
-        console.log($(window).width());
         if($(window).width() > 600) {
             $("#background").css("position", "fixed");
         } else {

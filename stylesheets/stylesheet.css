@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -50,6 +50,10 @@ h1, h2, h3, h4, h5, h6, {
 	color: #3A3A38;
 }
 
+#headername {
+	margin-bottom: 10px;
+}
+
 p {
 	color: #5B5B59;
 	font-size: 14px;
@@ -73,7 +77,7 @@ header#maininfo {
 	width: 100%;
 }
 header#maininfo .background-name {
-	background: url("../images/whiteicon.png") center center no-repeat;
+	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538939/whiteicon_jtmzwk.png") center center no-repeat;
 	float: left;
 	width: 50px;
 	display: block;
@@ -81,7 +85,7 @@ header#maininfo .background-name {
 	margin-left: 5%;
 }
 header#maininfo .project-name {
-	background: url("../images/yellowicon.png") center center no-repeat;
+	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538944/yellowicon_ehg362.png") center center no-repeat;
 	float: left;
 	width: 50px;
 	display: none;
@@ -140,12 +144,14 @@ nav a {
 /**background**/
 
 #background {
-	background: black url('../images/mainimage.png') center top no-repeat;
+	background: black url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538925/mainimage_e6u5kg.png') center top no-repeat;
 	background-size: cover;
+	display: flex;
+	align-items: center;
 }
 
 #aboutbackground {
-	background: black url('../images/me.png') center top no-repeat;
+	background: black url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538924/me_ldgt8u.png') center top no-repeat;
 	background-size: cover;
 	position: fixed;
 }
@@ -153,10 +159,14 @@ nav a {
 #headerinfo {
 	text-align: center;
 	color: #FFFFFF;
-	display: block;
 	margin: 0 auto;
 	max-width: 350px;
-	padding-top: 200px;
+
+	height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #headerinfo h3 {
@@ -270,38 +280,38 @@ nav a {
 }
 
 #zero {
-	background: black url('../images/copilot0.png') center center no-repeat;
+	background: black url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538891/copilot0_llomcr.png') center center no-repeat;
 	background-size: cover;
 }
 
 #first {
-	background: black url('../images/whitemainphoto.png') center center no-repeat;
+	background: black url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538940/whitemainphoto_petxlq.png') center center no-repeat;
 	background-size: cover;
 }
 
 #second {
-	background: url('../images/google1.png') center center no-repeat;
+	background: url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538914/google1_b378e7.png') center center no-repeat;
 	background-size: cover;
 }
 
 #third {
-	background: url('../images/stickimage.png') center center no-repeat;
+	background: url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538938/stickimage_aiabjn.png') center center no-repeat;
 	background-size: cover;
 }
 
 #four {
-	background: url('../images/buddha.png') center center no-repeat;
+	background: url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538889/buddha_oebe7c.png') center center no-repeat;
 	background-size: cover;
 }
 
 #five {
-	background: url('../images/motionhero.png') center center no-repeat;
+	background: url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538924/motionhero_dgosww.png') center center no-repeat;
 	background-size: cover;
 }
 
 
 #aboutfirst {
-	background: black url('../images/cats.png') center center no-repeat;
+	background: black url('http://res.cloudinary.com/duvqhtgse/image/upload/v1472538887/cats_vgosvo.png') center center no-repeat;
 	background-size: cover;
 }
 
@@ -548,49 +558,19 @@ img#bing3 {
 	width: 100%;
 }
 
+div.nav-container {
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.07em;
+}
 
+a#gladly-site {
+	border-bottom: 1px solid #ffffff;
+	padding-bottom: 1.5px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+a:visited{
+	color: #ffffff;
+}

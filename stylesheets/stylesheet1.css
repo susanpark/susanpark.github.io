@@ -7,8 +7,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -19,7 +19,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -70,7 +70,7 @@ header#maininfo {
 	width: 100%;
 }
 header#maininfo .background-name {
-	background: url("../images/whiteicon.png") center center no-repeat;
+	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538939/whiteicon_jtmzwk.png") center center no-repeat;
 	float: left;
 	width: 50px;
 	display: block;
@@ -78,7 +78,7 @@ header#maininfo .background-name {
 	margin-left: 5%;
 }
 header#maininfo .project-name {
-	background: url("../images/yellowicon.png") center center no-repeat;
+	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538944/yellowicon_ehg362.png") center center no-repeat;
 	float: left;
 	width: 50px;
 	display: none;
@@ -766,48 +766,10 @@ footer {
 	color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+div.nav-container {
+	display: flex;
+	width: 200px;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.07em;
+}
