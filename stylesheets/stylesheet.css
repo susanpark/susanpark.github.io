@@ -79,10 +79,11 @@ header#maininfo {
 header#maininfo .background-name {
 	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538939/whiteicon_jtmzwk.png") center center no-repeat;
 	float: left;
-	width: 50px;
+	width: 45px;
 	display: block;
-	height: 66px;
+	height: 24px;
 	margin-left: 5%;
+	margin-top: 30px;
 }
 header#maininfo .project-name {
 	background: url("http://res.cloudinary.com/duvqhtgse/image/upload/v1472538944/yellowicon_ehg362.png") center center no-repeat;
