@@ -575,3 +575,23 @@ a#gladly-site {
 a:visited{
 	color: #ffffff;
 }
+
+
+/* Temp Landing BG */
+.landing-background-image {
+	height: 100vh;
+	width: 100%;
+	background-image: url("../header.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.landing-dribbble-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.landing-dribbble-link:hover {
+	color: inherit;
+	text-decoration: none;
+}
